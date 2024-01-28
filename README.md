@@ -44,4 +44,6 @@ The outter loop accounts for one power of n because for insertion sort we must i
 The inner loop is what performs the swapping of elements. Each iteration of the inner loop, on average, will involve moving the current array item to the middle of the sorted portion of the array. To me this is the easiest way to understand the concept because middle is synonymous with average.
 For example, when sorting the third element of the array, there will be an average of 1 swap operations done, because this would bring it to the middle of the sorted portion of the array. For the 5th element, there would be an average of 2 operations. Adding the average swaps per iteration gives us the formula of $n(n-1)*1/4$, which asymptotically correlates to $n^2$ because coefficients are ignored and only the highest power term of n is accounted for in this context.
 
+The above explanation was written in my own words to reflect my own thoughts. 
 The following website was used to further my understanding of this concept: https://www.happycoders.eu/algorithms/insertion-sort/#Average_Time_Complexity
+
